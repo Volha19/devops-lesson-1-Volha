@@ -2,7 +2,7 @@ from app.greet import greet, shout
 
 
 def test_greet_default():
-    assert greet() != "Hello, World!"
+    assert greet() == "Hello, World!"
 
 
 def test_greet_name():
