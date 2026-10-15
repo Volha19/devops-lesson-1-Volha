@@ -22,4 +22,4 @@ jobs:
       - name: Display Python version
         run: python -c "import sys; print(sys.version)"
       - name: Run tests
-        run: python tests/test_greet.py
+        run: python -m pytest tests
